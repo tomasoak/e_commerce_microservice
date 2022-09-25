@@ -1,16 +1,33 @@
-# Microservice Project
+# E-Store Microservice 
 
-## Back-end
-- FastAPI
+## About
+Project developed to explore how FastAPI works
+
+<br>
+
+## Technologies
+### Back-end
+#### FastAPI
   - CRUD
   - Async
   - Background tasks
 
-- Redis
-  - Modules:
+
+#### Redis
+- Modules:
     - RediSearch
     - RedisJSON
-  - Redis Streams
+- Redis Streams
 
-## Front-end
-- ReactJS
+<br>
+
+### Front-end
+#### ReactJS
+
+___
+
+### TODO
+- [ ] Authentication
+- [ ] Front-end
+- [ ] User profile
+- [ ] Tests
