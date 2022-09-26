@@ -1,5 +1,5 @@
 <h1 align="center">
-	E-Store Microservice 
+	E-Commerce Microservice 
 </h1>
 
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
@@ -7,7 +7,7 @@
 <br>
 
 ## About
-Project developed to explore how FastAPI works
+Project developed to explore FastAPI
 
 <br>
 
