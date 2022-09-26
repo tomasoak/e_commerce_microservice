@@ -1,10 +1,12 @@
+import requests, time
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.background import BackgroundTasks
 from starlette.requests import Request
-import requests, time
 
 from models.order import Order
+from database.redis import redis
 
 app = FastAPI()
 
@@ -43,3 +45,5 @@ def order_completed(order: Order):
   time.sleep(3)
   order.status = "Completed"
   order.save()
+  # redis stream - * -> auto-generated id
+  redis.xadd("order_completed", order.dict(), "*")
