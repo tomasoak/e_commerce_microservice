@@ -7,7 +7,7 @@
 <br>
 
 ## About
-Project developed to explore FastAPI
+Project developed to explore FastAPI with an Event Driven Architecture
 
 <br>
 
